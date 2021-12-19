@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+}
+
+h1{
+    float: left;
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.content-header{
+    background: #0d5ac0;
+    color: white;
+    padding:70px;
+}
+
+.content-header form{
+    float: right;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content-header label{
+    font-size: 12px;
+    padding-bottom: 2px;
+}
+
+.content-header laber,
+.content-header input{
+    display: block;
+    padding: 2px;
+}
+
+.content-header input[type="checkbox"]{
+    display: inline-block;
+}
+
+.group-form{
+    float: left;
+    margin-left: 10px;
+}
+
+.group-form a{
+    color: rgba(red, green, blue, alpha);
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.content-header input[type="submit"]{
+    background-color: #0d5ac0;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid black;
+    font-size: 12px;
+    margin-top: 17px;
+}
+
+.content-midle{
+    background: #eeeeee;
+}
+
+.content-midle .midle-left{
+    float: left;
+    width: 50%;
+    margin-right: 5%;
+}
+h2{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.content-midle ul li{
+    list-style: none;
+    margin-bottom: 40px;
+    font-weight: normal;
+    color: grey;
+}
+
+.content-midle ul li span{
+    font-weight: bold;
+    color: black;
+}
+
+.content-midle .midle-rigth{
+    float: left;
+    width: 45%;
+}
+
+h3{
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.midle-rigth .hbd{
+    font-weight: bold;
+}
+
+.midle-rigth p:nth-child(2){
+    color: grey;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.midle-rigth input{
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.midle-rigth input.inline{
+    float: left;
+    width: 49%;
+    margin-right: 4px;
+}
+
+.midle-rigth input.inline .inline-last{
+    margin-right: 0;
+}
+
+#hbd-info, #register-info{
+    font-size: 12px;
+    color: gray;
+}
+
+#hbd-info, #register-info{
+    text-decoration: none;
+    color: #224ca0;
+}
+
+#register-info a:hover{
+    text-decoration: underline;
+}
+
+input[type=radio]{
+    display: inline-block;
+    width: 20px;
+    margin-top: 15px;
+}
+
+.midle-rigth input[type=submit]{
+    background-color: green;
+    color: white;
+    width: 150px;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+}
